@@ -70,11 +70,11 @@ db.close()
 
 newline = '\n'
 
-print(f'''Happiest country: {HappiestCountry[0][0]} | AVG sentiment: {HappiestCountry[0][1]}
-Unhappiest country: {UnhappiestCountry[0][0]} | AVG sentiment: {UnhappiestCountry[0][1]}
+print(f'''Happiest country: {HappiestCountry[0][0]} | Average sentiment for tweets: {HappiestCountry[0][1]}
+Unhappiest country: {UnhappiestCountry[0][0]} | Average sentiment for tweets: {UnhappiestCountry[0][1]}
 
-Happiest location: {HappiestLocation[0][0]} | AVG sentiment: {HappiestLocation[0][1]}
-Unhappiest location: {UnhappiestLocation[0][0]} | AVG sentiment: {UnhappiestLocation[0][1]}
+Happiest location: {HappiestLocation[0][0]} | Average sentiment for tweets: {HappiestLocation[0][1]}
+Unhappiest location: {UnhappiestLocation[0][0]} | Average sentiment for tweets: {UnhappiestLocation[0][1]}
 
 Happiest user: {HappiestUser[0][0]} | Tweet: {HappiestUser[0][1].replace(newline," ")}
 Unhappiest user: {UnhappiestUser[0][0]} | Tweet: {UnhappiestUser[0][1].replace(newline," ")}''')
